@@ -1,0 +1,287 @@
+/* HOMEPAGE DIV */
+#homepage {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    margin: 0 auto;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.5)),
+        url(./images/dallas-skyline.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.navbar {
+    background-color:transparent !important;
+}
+#github {
+    margin-right: 10px;
+}
+
+#home-title {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+
+#name {
+    font-size: 10vh;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#tag-line {
+    font-size: 4vh;
+    font-family: 'Permanent Marker', cursive;
+}
+a {
+    font-family: 'Questrial', sans-serif;
+    margin-left: 5px;
+}
+
+
+.button {
+    border: 3px solid white;
+    border-radius: 0px;
+    width: 150px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    margin: 10px;
+}
+.button:hover {
+    text-decoration: line-through;
+    background: transparent !important;
+    border: 3px solid white;
+}
+#button-link{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+#button-link:hover {
+    text-decoration: line-through;
+    background: transparent !important;
+}
+#contact {
+    margin-top: 15px;
+    display: none;
+}
+#contact-title {
+    font-size: 4vh;
+    font-family: 'Permanent Marker', cursive;
+}
+#small-hr{
+    display: block;
+        position: relative;
+        padding: 0;
+        margin: 8px auto;
+        height: 0;
+        width: 60%;
+        max-height: 0;
+        line-height: 0;
+        clear: both;
+        border: none;
+        border-top: 2px solid white;
+    }
+
+/* ABOUT ME DIV */
+#aboutMe {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: white;
+
+}
+
+p {
+    font-family: 'Questrial', sans-serif;
+    font-size: 2vh;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 5%; 
+    width: 80%;  
+    }
+    
+#image {
+       margin-left: 45px;
+        text-align: center;
+        display: inline-block;
+    }
+    
+.about-img {
+        border: 5px solid #151515;
+        margin: 15px;
+        width: 350px;
+        height: 500px;
+        transition: filter .5s ease-in-out;
+        -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+        filter: grayscale(0%); /* FF 35+ */
+    }
+    
+.about-img:hover {
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+        filter: grayscale(100%); /* FF 35+ */
+      }
+    
+#aboutme-text {
+        display: inline-block;
+        font-weight: 500;
+    }
+.title {
+        padding: 15px;
+        font-family: 'Permanent Marker', cursive;
+    }
+
+hr{
+        display: block;
+            position: relative;
+            padding: 0;
+            margin: 8px auto;
+            height: 0;
+            width: 80%;
+            max-height: 0;
+            line-height: 0;
+            clear: both;
+            border: none;
+            border-top: 2px solid #151515;
+        }
+#hr-skill{
+        display: block;
+        position: relative;
+        padding: 0;
+        margin: 8px auto;
+        height: 0;
+        width: 60%;
+        max-height: 0;
+        line-height: 0;
+        clear: both;
+         border: none;
+        border-top: 2px solid #151515;
+            }
+
+
+/* PORTFOLIO DIV*/
+#portfolio {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f5;
+}
+.portfolio-title {
+    color: #151515;
+    padding: 15px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#port-hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 80%;
+    max-height: 0;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 2px solid #151515;
+  
+}
+
+.wrapper {
+    width: 100vw;
+    padding-top: 25px;
+    
+}
+img {
+    height: 300px;
+    width: 400px;
+ 
+}
+
+.img-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#clean {
+    background-image: url(./images/Clean-Fridge-350x300.png);
+
+}
+
+#clean:hover {
+    background: white;
+    color: #151515;
+}
+
+.div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 350px;
+}
+.overlay {
+    text-align: center;
+    position: relative;
+    top: 10%;
+    visibility: hidden;
+    color: #151515;
+}
+
+.buttonPort {
+    border: 3px solid #151515;
+    border-radius: 0px;
+    width: 150px;
+    color: #151515;
+    font-family: 'Permanent Marker', cursive;
+    margin: 10px;
+    background: transparent !important;
+}
+.buttonPort:hover {
+    text-decoration: line-through;
+    color: #151515;
+}
+
+#clean {
+    background-image: url(./images/Clean-Fridge-350x300.png);
+}
+#burger {
+    background-image: url(./images/Burger-350x300.png);
+
+}
+#friend {
+    background-image: url(./images/Friend-350x300.png);
+
+}
+
+#liri {
+    background-image: url(./images/liri-350x300.gif);
+
+}
+#gif {
+    background-image: url(./images/Giftastic-350x300.png);
+
+}
+#trivia {
+    background-image: url(./images/Trivia-350x300.png);
+
+}
+#clean:hover,
+#burger:hover,
+#friend:hover,
+#liri:hover,
+#gif:hover,
+#trivia:hover {
+    background: white;
+    color: #151515;
+}
+
+
