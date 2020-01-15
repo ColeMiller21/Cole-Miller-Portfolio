@@ -18,13 +18,18 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/64343a162e.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Questrial&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Cole Miller</title>
 </head>
 
 <body>
+    <script>
+        AOS.init();
+    </script>
 
     <div id="homepage">
         <nav class="navbar navbar-expand-md navbar-dark bg-primary">
@@ -81,12 +86,13 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div id="image">
-                        <img class="about-img" src="./images/colemiller.jpg" alt="Cole Miller" />
+                        <img data-aos="zoom-in-down" class="about-img" src="./images/colemiller.jpg"
+                            alt="Cole Miller" />
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div id="aboutme-text" class="text-center">
-                        <p>
+                        <p data-aos="zoom-in-left" id="about-text">
                             My name is Cole Miller. I am 27 years old currently residing in the Dallas/Fort Worth area.
                             I
                             graduated high
@@ -133,7 +139,26 @@
         <div class="wrapper">
             <div class="img-area">
 
-                <div class="single-img div">
+                <div data-aos="zoom-out-right" class="single-img div">
+                    <div class="div" id="quizme">
+                        <div class="overlay">
+                            <h4 class="card-title">QuizMe</h4>
+                            <p class="card-text">Trivia Game using HTML5 + CSS3 + Javascript + JQuery + Node.js +
+                                Express.js + MySql + Handlebars.js and deployed with Heroku.
+                            </p>
+                            <div class="buttons mt-auto">
+                                <a href="https://boiling-hollows-27264.herokuapp.com/"
+                                    class="btn btn-dark buttonPort">Check
+                                    it
+                                    Out!</a>
+                                <a href="https://github.com/ColeMiller21/Project-2"
+                                    class="btn btn-dark buttonPort">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="flip-left" class="single-img div">
                     <div class="div" id="burger">
                         <div class="overlay">
                             <h4 class="card-title">Burger Handlebars</h4>
@@ -153,7 +178,7 @@
                     </div>
                 </div>
 
-                <div class="single-img div">
+                <div data-aos="flip-left" class="single-img div">
                     <div class="div" id="friend">
                         <div class="overlay">
                             <h4 class="card-title">Friend Finder</h4>
@@ -174,7 +199,7 @@
                     </div>
                 </div>
 
-                <div class="single-img div">
+                <div data-aos="zoom-out-left" class="single-img div">
                     <div class="div" id="clean">
                         <div class="overlay">
                             <h4 class="card-title">Clean Fridge</h4>
@@ -193,7 +218,7 @@
                     </div>
                 </div>
 
-                <div class="single-img div">
+                <div data-aos="zoom-out-up" class="single-img div">
                     <div class="div" id="liri">
                         <div class="overlay">
                             <h4 class="card-title">Liri Bot</h4>
@@ -211,7 +236,7 @@
                     </div>
                 </div>
 
-                <div class="single-img div">
+                <div data-aos="zoom-out-up" class="single-img div">
                     <div class="div" id="gif">
                         <div class="overlay">
                             <h4 class="card-title">GifTastic</h4>
@@ -229,7 +254,7 @@
                     </div>
                 </div>
 
-                <div class="single-img div">
+                <div data-aos="zoom-out-up" class="single-img div">
                     <div class="div" id="trivia">
                         <div class="overlay">
                             <h4 class="card-title">Cowboys Trivia</h4>
@@ -260,6 +285,7 @@
 
     </div>
     <script src="app.js"></script>
+
 </body>
 
 </html>

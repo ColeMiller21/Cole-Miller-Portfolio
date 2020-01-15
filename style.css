@@ -132,6 +132,10 @@ p {
 #aboutme-text {
         display: inline-block;
         font-weight: 500;
+        
+    }
+    #about-text {
+        font-size: 1.5vw;
     }
 .title {
         padding: 15px;
@@ -274,12 +278,17 @@ img {
     background-image: url(./images/Trivia-350x300.png);
 
 }
+#quizme {
+    background-image: url(./images/QuizMe-350x300.png);
+
+}
 #clean:hover,
 #burger:hover,
 #friend:hover,
 #liri:hover,
 #gif:hover,
-#trivia:hover {
+#trivia:hover,
+#quizme:hover {
     background: white;
     color: #151515;
 }
