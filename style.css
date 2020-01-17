@@ -1,10 +1,18 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+}
 /* HOMEPAGE DIV */
 #homepage {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     color: white;
     margin: 0 auto;
-    background-image:
+    background:
         linear-gradient(rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0.5)),
         url(./images/dallas-skyline.jpg);
@@ -97,7 +105,7 @@ a {
 
 p {
     font-family: 'Questrial', sans-serif;
-    font-size: 2vh;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -135,7 +143,7 @@ p {
         
     }
     #about-text {
-        font-size: 1.5vw;
+        font-size: 1.2rem;
     }
 .title {
         padding: 15px;
@@ -293,4 +301,12 @@ img {
     color: #151515;
 }
 
+/*MEDIA QUEIRIES*/
+
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    #homepate {
+        background-color: black;
+    }
+ }
 
