@@ -4,7 +4,7 @@
     width: 100vw;
     color: white;
     margin: 0 auto;
-    background:
+    background-image:
         linear-gradient(rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0.5)),
         url(./images/dallas-skyline.jpg);
