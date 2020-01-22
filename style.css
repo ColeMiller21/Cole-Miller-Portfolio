@@ -88,12 +88,7 @@ a {
         border: none;
         border-top: 2px solid white;
     }
-    #skills {
-        padding-top: 25px;
-    }
-    #about-cont {
-        padding-top: 15px;
-    }
+   
 
 /* ABOUT ME DIV */
 #aboutMe {
@@ -125,7 +120,7 @@ p {
 .about-img {
         border: 5px solid #151515;
         margin: 0;
-        width: 350px;
+        width: 305px;
         height: 400px;
         transition: filter .5s ease-in-out;
         -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
@@ -175,6 +170,13 @@ hr{
         clear: both;
          border: none;
         border-top: 2px solid #151515;
+            }
+
+#skills {
+        padding-top: 25px;
+            }
+#about-cont {
+        padding-top: 15px;
             }
 
 
