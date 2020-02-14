@@ -292,13 +292,17 @@ img {
     background-image: url(./images/QuizMe-350x300.png);
 
 }
+#clickgame {
+    background-image: url(./images/React-Click-350x300.png);
+}
 #clean:hover,
 #burger:hover,
 #friend:hover,
 #liri:hover,
 #gif:hover,
 #trivia:hover,
-#quizme:hover {
+#quizme:hover,
+#clickgame:hover {
     background: white;
     color: #151515;
 }
