@@ -295,6 +295,9 @@ img {
 #clickgame {
     background-image: url(./images/React-Click-350x300.png);
 }
+#googlelibrary {
+    background-image: url(./images/React-Library-350x300.png);
+}
 #clean:hover,
 #burger:hover,
 #friend:hover,
@@ -302,7 +305,8 @@ img {
 #gif:hover,
 #trivia:hover,
 #quizme:hover,
-#clickgame:hover {
+#clickgame:hover,
+#googlelibrary {
     background: white;
     color: #151515;
 }
