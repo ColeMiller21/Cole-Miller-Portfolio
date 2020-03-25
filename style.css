@@ -306,7 +306,7 @@ img {
 #trivia:hover,
 #quizme:hover,
 #clickgame:hover,
-#googlelibrary {
+#googlelibrary:hover {
     background: white;
     color: #151515;
 }
